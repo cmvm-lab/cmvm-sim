@@ -10,14 +10,6 @@ results in the paper.
 | `micro/cmvm_cell_su2_matrix_model.py` | Builds a truncated SU(2) bosonic matrix Hamiltonian, diagonalises it, and plots the ground-state convergence. | Fig. A3 |
 | `echo/CMVM_echo_analysis.py` | Fits the ring-down + echo template to GW150914 data and plots the best-fit spectrum. | Fig. 4 |
 
-## Minimal dependencies
-* Python ≥ 3.9  
-* numpy ≥ 1.22  
-* matplotlib ≥ 3.5  
-* qutip ≥ 5.0   (micro-cell script)  
-* scipy ≥ 1.8  
-* gwpy ≥ 2.1    (echo analysis)
-
 
 ## Quick start
 
@@ -35,3 +27,11 @@ pip install numpy matplotlib qutip scipy gwpy
 # run the demos
 python micro/cmvm_cell_su2_matrix_model.py
 python echo/CMVM_echo_analysis.py
+
+## Minimal dependencies
+* Python ≥ 3.9  
+* numpy ≥ 1.22  
+* matplotlib ≥ 3.5  
+* qutip ≥ 5.0   (micro-cell script)  
+* scipy ≥ 1.8  
+* gwpy ≥ 2.1    (echo analysis)
