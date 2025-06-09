@@ -20,6 +20,7 @@ import h5py
 from scipy.interpolate import interp1d
 from scipy.optimize import curve_fit
 
+
 # -----------------------------------------------------------------------------
 # Compat import for Tukey window (SciPy moved it in 1.13)
 # -----------------------------------------------------------------------------
